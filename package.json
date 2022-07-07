@@ -1,20 +1,24 @@
 {
-  "name": "api-project",
-  "scripts": {
-    "test": "jest"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tzukuyomii/api-project.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Tzukuyomii/api-project/issues"
-  },
-  "homepage": "https://github.com/Tzukuyomii/api-project#readme",
-  "devDependencies": {
-    "jest": "^28.1.2"
-  }
+    "name": "api-project",
+    "scripts": {
+        "test": "jest",
+        "build": "tsc"
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tzukuyomii/api-project.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Tzukuyomii/api-project/issues"
+    },
+    "homepage": "https://github.com/Tzukuyomii/api-project#readme",
+    "devDependencies": {
+        "@tsconfig/node16": "^1.0.3",
+        "@types/node": "^18.0.3",
+        "jest": "^28.1.2",
+        "typescript": "^4.7.4"
+    }
 }
